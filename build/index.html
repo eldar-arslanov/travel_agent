@@ -4,11 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Стартовый шаблон</title>
+		<title>Travel Agent</title>
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./fonts/CircularStd/stylesheet.css">
 	</head>
 	<body>
-			<header class="header">
+		<header class="header">
     <div class="container">
         <nav class="nav">
             <a class="logo">
@@ -63,23 +64,23 @@
                     <div class="discover__form">
                         <form action="" class="form">
 
-    <label for="" class="form__label">
-        <span>Location</span>
-        <input type="text" class="form__input" placeholder="e.g Bali, Indonesia" autocomplete="off">
+	<label for="" class="form__label">
+        <span>Locations</span>
+        <input id="autoCompleteCountry" name="country" type="text" class="form__input" placeholder="e.g Bali, Indonesia" autocomplete="off">
     </label>
 
-    <div class="form__devider"></div>
+	<div class="form__devider"></div>
 
     <label for="" class="form__label">
         <span>Date and time</span>
-        <input type="text" class="form__input" placeholder="MM/DD/YYYY" autocomplete="off">
+        <input id="datePicket" name="date" type="text" class="form__input" placeholder="MM/DD/YYYY" autocomplete="off">
     </label>
-     
-    <button class="form__btn">
-        <img src="./img/icons/search-btn.svg" alt="" class="form__img">
-    </button>
 
-</form> 
+	<button class="form__btn">
+		<img src="./img/icons/search-btn.svg" alt="Search" />
+	</button>
+</form>
+
                     </div>
                 </div>
             </div>
@@ -90,8 +91,9 @@
         
     </div>
 </section>
+			
 		</main>
-			<footer class="footer">
+		<footer class="footer">
 	<div class="container">
 		<h2>Footer</h2>
 	</div>
