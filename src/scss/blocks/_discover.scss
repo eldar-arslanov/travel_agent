@@ -20,6 +20,20 @@ align-items: center;
 .discover__form {
 }
 .discover__picture {
+    position: relative;
 }
 .discover__picture-img {
+}
+.text p {
+    padding-bottom: 40px;
+}
+.discover__picture-hint {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.discover__picture-scroll {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
 }

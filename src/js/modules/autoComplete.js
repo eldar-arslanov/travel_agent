@@ -1,6 +1,5 @@
 import autoComplete from '@tarekraafat/autocomplete.js';
 import countryList from './../helpers/countryList';
-
 function autoCompleteFunc() {
 	const autoCompleteJS = new autoComplete({
 		selector: '#autoCompleteCountry',

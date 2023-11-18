@@ -1,8 +1,8 @@
 import autoCompleteFunc from './modules/autoComplete';
 autoCompleteFunc();
 
-// import easepick from './modules/easepick.js';
-// easepick();
+import easepick from './modules/easepick.js';
+easepick();
 
 // import swiper from './modules/swiper.js';
 // swiper();
